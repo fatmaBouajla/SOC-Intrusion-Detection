@@ -1,0 +1,36 @@
+
+# VMware
+*.vmdk
+*.vmsd
+*.vmsn
+*.vmem
+*.nvram
+*.vmxf
+*.vmss
+*.vmsw
+*.iso
+*.vmpl
+
+# Logs
+*.log
+*.logs
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Temporary files
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
